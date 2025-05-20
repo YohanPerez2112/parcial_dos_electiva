@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ingreso a la Academia Jedi</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="form-container">
     <div class="logo">
-      <img src="./assets/star-wars-2.svg" alt="Logo de la Academia Jedi" />
+      <img width="50" height="50" src="./assets/star-wars-2.svg" alt="Logo de la Academia Jedi" />
+      <h1>Academia Jedi</h1>
+      <h3>Que la fuerza te acompañe</h3>
     </div>
-    <h1>Ingreso a la Academia Jedi</h1>
     <form>
       <label for="nombre">Nombre del Aprendiz</label>
       <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aquí" required>
@@ -21,7 +24,7 @@
       <select id="especie" name="especie" required>
         <option value="">Selecciona tu especie</option>
         <option value="humano">Humano</option>
-        <option value="twi'lek">Twi'lek</option>
+        <option value="twilek">Twi'lek</option>
         <option value="zabrak">Zabrak</option>
         <option value="trandoshano">Trandoshano</option>
         <option value="togruta">Togruta</option>
@@ -60,9 +63,8 @@
       <button type="submit" class="submit-button">Enviar solicitud al Consejo Jedi</button>
     </form>
     <footer>
-      El camino del aprendiz empieza con un clic…
+      <br>Sembrando tu nuevo camino
     </footer>
   </div>
 </body>
 </html>
-
